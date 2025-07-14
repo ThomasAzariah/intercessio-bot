@@ -2,6 +2,9 @@ import discord
 import os
 from discord.ext import commands, tasks
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # === CONFIGURATION GÉNÉRALE ===
 TOKEN = os.getenv("DISCORD_TOKEN")                     # Remplace par ton token Discord
